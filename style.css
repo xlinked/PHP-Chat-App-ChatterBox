@@ -1,0 +1,138 @@
+html {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+body {
+  background: #84a98C;
+}
+
+@media (min-width:319px)  { 
+  /* smartphones, iPhone, portrait 480x320 phones */ 
+  header {
+    height: 100px;
+    width: 100%;
+    color: darkblue;
+    position: relative;
+  }
+  header h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+    font-family: 'Orbitron', Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    color: #05386B;
+  }
+  /* Login/Registration Container */
+  .container {
+    height: auto;
+    margin: auto;
+    width: 100%;
+    max-width: 800px;
+    max-height: 700px;
+  }
+
+  /* Login/Registration forms */
+  #login, #register {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 0;
+    height: auto;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #05386B;
+    color: #000;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0 0 15px 0 #05386B;
+    font-family: 'Orbitron', Verdana, sans-serif;
+  }
+  form h2 {
+    font-size: 1.7em;
+    color: #8EE4AF;
+  }
+  .input-group {
+    margin: 10px 0px 10px 0px;
+  }
+  .input-group label {
+    display: block;
+    text-align: left;
+    padding: 10px;
+    margin: 3px;
+    color: #8EE4AF;
+    font-weight: bold;
+  }
+  .input-group input {
+    height: 30px;
+    width: 80%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #05386B;
+    background-color: #cad2c5;
+    font-family: 'Orbitron', Verdana, sans-serif;
+    font-weight: bold;
+    color: #05386B;
+    font-size: 1em;
+  }
+  
+  .error {
+    margin: 0px auto; 
+    padding: 5px;
+    color: #a94442;  
+    border-radius: 5px; 
+    text-align: left;
+  }
+  .success {
+    color: #EDF5E1; 
+    background: black; 
+    margin: 0 auto;
+    padding: 5px;
+  }
+  
+  /* login/Register Button */
+  #register, #login, a {
+    color: #EDF5E1;
+  }
+  #register, #login, p {
+    color: #8EE4AF;
+  }
+  .button {
+    margin: 10px;
+    border: none;
+    color: #8EE4AF;
+    font-family: 'Orbitron', Verdana, sans-serif;
+    font-size: 1.2em;
+    background-color: transparent;
+    box-shadow: 0 0 10px 0 #8EE4AF;
+    cursor: pointer;
+  }
+  .button:hover {
+    transition: 2s;
+    box-shadow: 0 0 20px 0 #8EE4AF;
+  }
+}
+
+@media (min-width:481px)  { 
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+  header h1 {
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: #05386B;
+  }
+}
+
+@media (min-width:641px)  { 
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+}
+
+@media (min-width:961px)  { 
+  /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+}
+
+@media (min-width:1025px) { 
+  /* big landscape tablets, laptops, and desktops */ 
+}
+
+@media (min-width:1281px) { 
+  /* hi-res laptops and desktops */ 
+}
